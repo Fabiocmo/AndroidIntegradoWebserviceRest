@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ImageView
+        android:id="@+id/img_form_cliente"
+        android:layout_width="82dp"
+        android:layout_height="82dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        android:src="@drawable/ic_launcher" />
+
+<LinearLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="horizontal">
+ <TextView android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Nome:"
+     android:padding="5dp"/> 
+     <EditText
+         android:id="@+id/edtNome_form_cliente" 
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:singleLine="true"
+         android:layout_marginRight="5dp"/>  
+    
+</LinearLayout>
+<LinearLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:paddingTop="10dp">
+ <TextView android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Endereço:"
+     android:padding="5dp"/> 
+     <EditText
+         android:id="@+id/edtEndereco_form_cliente" 
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:singleLine="true"
+         android:layout_marginRight="5dp"/>  
+    
+</LinearLayout>
+<LinearLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:paddingTop="10dp">
+ <TextView android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Telefone:"
+     android:padding="5dp"/> 
+     <EditText
+         android:id="@+id/edtTelefone_form_cliente" 
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:numeric="integer"
+         android:singleLine="true"
+         android:layout_marginRight="5dp"/>  
+    
+</LinearLayout>
+
+<Button
+    android:id="@+id/btn_form_gravar" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Gravar"
+    android:paddingTop="10dp"
+    android:paddingLeft="5dp"/>
+</LinearLayout>
